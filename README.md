@@ -17,7 +17,7 @@ BlazeMetter é um projeto de automação de testes funcionais para o site BlazeM
 
 ## Pré-requisitos
 Antes de usar o BlazeMetter, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-- Node.js [link](https://nodejs.org/en/download/)(v14 ou superior)
+[- Node.js](https://nodejs.org/en/download/)(v14 ou superior)
 
 ## Instalação e configuração
 1. Faça o clone deste repositório na sua máquina local.
