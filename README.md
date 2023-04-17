@@ -22,13 +22,13 @@ Antes de usar o BlazeMetter, certifique-se de ter as seguintes ferramentas insta
 ## Instalação e configuração
 1. Faça o clone deste repositório na sua máquina local.
 2. Instale as dependências do projeto:
---bash
+```
 npm install
---
+```
 3. Execute os testes:
---bash
+```
 npx playwright test
---
+```
 
 ## Licença
 Este projeto está licenciado sob a licença MIT. Leia o arquivo LICENSE para mais informações.
