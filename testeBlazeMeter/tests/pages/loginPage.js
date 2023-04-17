@@ -14,9 +14,14 @@ export class t2 {
         await page.fill(loginPage.campoUsername, usuario);
         await page.fill(loginPage.campoSenha, senha);
         await page.click(loginPage.botaoLogar);
+      
+        // Aguarda o elemento contendo a mensagem de boas-vindas estar presente na página
+        await page.waitForSelector(loginPage.localizarWelcome);
+      
         // Verifique se o elemento de boas-vindas contém a mensagem de boas-vindas esperada
         await expect(page.locator(loginPage.localizarWelcome)).toHaveText(`Welcome ${usuario}`);
-    }
+      }
+      
 
     async ct05(page) {
         try {
