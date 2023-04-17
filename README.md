@@ -4,10 +4,10 @@
 BlazeMetter é um projeto de automação de testes funcionais para o site BlazeMeter, usando o Playwright como ferramenta de automação.
 
 ## Funcionalidades principais
-- Validar o cadastro no site BlazeMeter.
-- Validar o login.
-- Validar a funcionalidade do carrinho
-- Validar a compra com sucesso.
+- Valida o cadastro no site BlazeMeter.
+- Valida o login.
+- Valida a funcionalidade do carrinho
+- Valida a compra com sucesso.
 - Verifica os resultados do teste.
 
 ## Tecnologias utilizadas
@@ -17,7 +17,8 @@ BlazeMetter é um projeto de automação de testes funcionais para o site BlazeM
 
 ## Pré-requisitos
 Antes de usar o BlazeMetter, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-- Node.js (v14 ou superior)
+
+[- Node.js](https://nodejs.org/en/download/) (v14 ou superior)
 
 ## Instalação e configuração
 1. Faça o clone deste repositório na sua máquina local.
@@ -27,7 +28,7 @@ npm install
 ```
 3. Execute os testes:
 ```
-npx playwright test
+npx playwright test --headed
 ```
 
 ## Licença
