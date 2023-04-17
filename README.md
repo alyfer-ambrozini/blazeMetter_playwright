@@ -4,10 +4,10 @@
 BlazeMetter é um projeto de automação de testes funcionais para o site BlazeMeter, usando o Playwright como ferramenta de automação.
 
 ## Funcionalidades principais
-- Validar o cadastro no site BlazeMeter.
-- Validar o login.
-- Validar a funcionalidade do carrinho
-- Validar a compra com sucesso.
+- Valida o cadastro no site BlazeMeter.
+- Valida o login.
+- Valida a funcionalidade do carrinho
+- Valida a compra com sucesso.
 - Verifica os resultados do teste.
 
 ## Tecnologias utilizadas
