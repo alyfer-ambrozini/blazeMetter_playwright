@@ -27,7 +27,7 @@ npm install
 ```
 3. Execute os testes:
 ```
-npx playwright test
+npx playwright test --headed
 ```
 
 ## Licença
